@@ -554,30 +554,6 @@ video {
   display: none;
 }
 
-.relative {
-  position: relative;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.top-\[-150px\] {
-  top: -150px;
-}
-
-.top-\[-100px\] {
-  top: -100px;
-}
-
-.top-\[-80px\] {
-  top: -80px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -599,10 +575,6 @@ video {
   margin-top: -18px;
 }
 
-.mt-40 {
-  margin-top: 10rem;
-}
-
 .h-\[79\] {
   height: 79;
 }
@@ -611,24 +583,12 @@ video {
   min-height: 100vh;
 }
 
-.min-h-full {
-  min-height: 100%;
-}
-
-.min-h-\[100\%\] {
-  min-height: 100%;
-}
-
-.w-\[79px\] {
-  width: 79px;
-}
-
 .w-\[400px\] {
   width: 400px;
 }
 
-.w-full {
-  width: 100%;
+.w-\[79px\] {
+  width: 79px;
 }
 
 .max-w-\[350px\] {
@@ -644,20 +604,8 @@ video {
   background-image: url('/src/img/fondo-15-anios.png');
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-\[length\:393px\] {
-  background-size: 393px;
-}
-
 .bg-\[length\:400px\] {
   background-size: 400px;
-}
-
-.bg-top {
-  background-position: top;
 }
 
 .bg-center {
@@ -671,26 +619,6 @@ video {
 .object-none {
   -o-object-fit: none;
      object-fit: none;
-}
-
-.pt-40 {
-  padding-top: 10rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pt-24 {
-  padding-top: 6rem;
-}
-
-.pt-14 {
-  padding-top: 3.5rem;
 }
 
 .text-center {
@@ -758,61 +686,25 @@ video {
 }
 
 @media (max-width: 600px) {
-  .max-\[600px\]\:pt-40 {
-    padding-top: 10rem;
-  }
-
-  .max-\[600px\]\:pt-36 {
-    padding-top: 9rem;
-  }
-
-  .max-\[600px\]\:pt-32 {
-    padding-top: 8rem;
-  }
-
   .max-\[600px\]\:pt-28 {
     padding-top: 7rem;
   }
 }
 
-@media (min-width: 640px) {
-  .sm\:mt-40 {
-    margin-top: 10rem;
+@media (min-width: 1024px) {
+  .lg\:pt-24 {
+    padding-top: 6rem;
   }
 
-  .sm\:w-\[393px\] {
-    width: 393px;
+  .lg\:pt-32 {
+    padding-top: 8rem;
   }
 
-  .sm\:bg-cover {
-    background-size: cover;
-  }
-
-  .sm\:pt-20 {
-    padding-top: 5rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:pt-20 {
-    padding-top: 5rem;
-  }
-
-  .md\:pt-40 {
+  .lg\:pt-40 {
     padding-top: 10rem;
   }
-}
 
-@media (min-width: 1024px) {
-  .lg\:mt-24 {
-    margin-top: 6rem;
-  }
-
-  .lg\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .lg\:pt-14 {
-    padding-top: 3.5rem;
+  .lg\:pt-44 {
+    padding-top: 11rem;
   }
 }
