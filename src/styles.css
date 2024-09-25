@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bernadette Rough";
+  src: url("/fonts/bernadette_rough.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rancho Regular";
+  src: url("/fonts/Rancho-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
