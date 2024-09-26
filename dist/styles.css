@@ -608,8 +608,8 @@ video {
   background-size: 400px;
 }
 
-.bg-center {
-  background-position: center;
+.bg-top {
+  background-position: top;
 }
 
 .bg-no-repeat {
@@ -685,26 +685,20 @@ video {
   box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
-  .max-\[600px\]\:pt-28 {
-    padding-top: 7rem;
+@media (max-width: 1000px) {
+  .max-\[1000px\]\:pt-36 {
+    padding-top: 9rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .max-\[650px\]\:pt-36 {
+    padding-top: 9rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:pt-24 {
-    padding-top: 6rem;
-  }
-
-  .lg\:pt-32 {
-    padding-top: 8rem;
-  }
-
   .lg\:pt-40 {
     padding-top: 10rem;
-  }
-
-  .lg\:pt-44 {
-    padding-top: 11rem;
   }
 }
